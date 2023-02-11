@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //alex bank account
+        //alex's bank account
         BankAccount bankAccount = new BankAccount("Alex", 15505);
 
         bankAccount.withdraw(570);
@@ -10,8 +10,8 @@ public class Main {
         System.out.println(bankAccount.getOwner());
         System.out.println(bankAccount.getBalance());
         
-        //david bank account
-        BankAccount bankAccount2 = new BankAccount("Alex", 700);
+        //david's bank account
+        BankAccount bankAccount2 = new BankAccount("David", 700);
 
         bankAccount2.withdraw(280);
         bankAccount2.deposit(1500);
